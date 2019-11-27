@@ -442,8 +442,10 @@ print(l2)
 ```
 ### 14.给定两个list A，B ,请用找出A，B中相同与不同的元素
 ```python
-A,B 中相同元素： print(set(A)&set(B))
-A,B 中不同元素:  print(set(A)^set(B))
+# A,B 中相同元素： 
+print(set(A)&set(B))
+# A,B 中不同元素:  
+print(set(A)^set(B))
 ```
 ## 企业面试题
 ### 15.python新式类和经典类的区别？
